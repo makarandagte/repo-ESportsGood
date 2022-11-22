@@ -27,7 +27,7 @@ if(isset($_POST['order'])){
 		$p_id = $row['p_id'];
 		$p_qty = $row['p_qty'];
 		
-		$insert_order = "insert into order_details(order_id,pro_id,qty) VALUES('$order','$p_id','$p_qty')";
+		$insert_order = "insert   into order_details(order_id,pro_id,qty) VALUES('$order','$p_id','$p_qty')";
 		$run_insert = mysqli_query($con,$insert_order);
 	}
 	
