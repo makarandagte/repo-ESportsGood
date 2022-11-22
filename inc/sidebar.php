@@ -63,34 +63,7 @@
 						
 						</div><!--/category-products-->
 					
-						<div class="brands_products"><!--brands_products-->
-							<h2>Brands</h2>
-							<?php  
-							$select_brand = "select * from brand";
-							$run_brand = mysqli_query($con,$select_brand);
-							while($fetch_brand = mysqli_fetch_array($run_brand)){
-								   $b_id = $fetch_brand['id'];
-								   $b_title = $fetch_brand['title'];
-								   
-								   $sel_count = "select * from product where p_brand='$b_id'";
-								   $run_count = mysqli_query($con,$sel_count);
-								   $count = mysqli_num_rows($run_count);
-								   if($count>0){
-									   $count_num = $count;
-								   }else{
-									   $count_num = 0;
-								   }
-							
-							
-							?>
-							<div class="brands-name">
-								<ul class="nav nav-pills nav-stacked">
-									<li><a href="shop.php?b_id=<?php echo $b_id;?>"><span class="pull-right">(<?php echo $count_num; ?>)</span><?php echo $b_title; ?></a></li>
-									
-								</ul>
-							</div>
-							<?php } ?>
-						</div><!--/brands_products-->
+						
 						
 						<!--price-range-->
 						<!--- <div class="price-range">
@@ -102,10 +75,7 @@
 						</div>  -->
 						
 						
-						<!--/price-range--> 
-						<div class="shipping text-center visible-lg"><!--shipping-->
-							<img src="images/home/shipping.jpg" alt="" />
-						</div><!--/shipping-->
+					
 					
 					</div>
 					

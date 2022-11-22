@@ -12,7 +12,7 @@
 		 <!---Sidebar Ends--->
 				<div class="col-sm-9 padding-right">
 					<div class="features_items"><!--features_items-->
-						<h2 class="title text-center">Features Items</h2>
+						<h2 class="">Features Items</h2>
 				        
 						
 						<?php
@@ -53,7 +53,7 @@
 						
 					</div><!--features_items-->
 				
-					<div class="category-tab"><!--category-tab-->
+					<div class=""><!--category-tab-->
 						<div class="col-sm-12">
 							<ul class="nav nav-tabs">
 								<li class="active"><a href="#tshirt" data-toggle="tab">T-Shirt</a></li>
