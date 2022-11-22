@@ -81,7 +81,7 @@
 				<div class="panel-footer">
 					<div class="row text-center">
 						<div class="col-xs-6 col-lg-9">
-							<h4 class="text-right">Total&nbsp; Rs.<strong><?php echo $total; ?></strong></h4>
+							<h4 class="text-right">Total&nbsp; $<strong><?php echo $total; ?></strong></h4>
 						</div>
 						<div class="col-xs-6 col-lg-3">
 							<a href="<?php echo $checkout; ?>.php"><button type="button" class="btn btn-success btn-block" id="check_btn">

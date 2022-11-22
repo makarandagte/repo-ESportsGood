@@ -218,7 +218,7 @@ if($count_cancelled > 0){
 				  
 				  <h5 style="text-decoration:<?php echo $text_decoration; ?>"><span class="glyphicon glyphicon-home"></span>&nbsp;Delivery Address : <span style="font-family:COMIC SANS MS;"><?php echo ucfirst($order_ad) ?> ,&nbsp;<?php echo $order_city; ?></span></h5>
 				  <h5 id="status"><span class="glyphicon glyphicon-time"></span>&nbsp;Order Status :<span class="<?php echo $mark; ?>"> <?php echo $order_status; ?></span></h5>
-				  <h5 style="text-decoration:<?php echo $text_decoration; ?>"><span class="glyphicon glyphicon-star"></span>&nbsp;Total Amount : Rs. <?php echo $order_amt; ?></h5>
+				  <h5 style="text-decoration:<?php echo $text_decoration; ?>"><span class="glyphicon glyphicon-star"></span>&nbsp;Total Amount : $ <?php echo $order_amt; ?></h5>
                 </div>
 				
               </div>

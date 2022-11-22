@@ -12,7 +12,7 @@
 		 <!---Sidebar Ends--->
 				<div class="col-sm-9 padding-right">
 					<div class="features_items"><!--features_items-->
-						<h2 class="title text-center">Features Items</h2>
+						<h2 class="">Features Items</h2>
 				        
 						
 						<?php
@@ -37,7 +37,7 @@
 								<div class="single-products">
 									<div class="productinfo text-center">
 										<img src="admin/images/<?php echo $image; ?>" alt="" >
-										<h2><span>Rs.</span><?php echo $price; ?></h2>
+										<h2><span>$</span><?php echo $price; ?></h2>
 										<p><?php echo $name; ?></p>
 										<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 										<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
@@ -53,7 +53,7 @@
 						
 					</div><!--features_items-->
 				
-					<div class="category-tab"><!--category-tab-->
+					<div class=""><!--category-tab-->
 						<div class="col-sm-12">
 							<ul class="nav nav-tabs">
 								<li class="active"><a href="#tshirt" data-toggle="tab">T-Shirt</a></li>
@@ -82,7 +82,7 @@
 										<div class="single-products">
 											<div class="productinfo text-center">
 												<img src="admin/images/<?php echo $image; ?>" alt="" />
-												<h2><span>Rs.</span><?php echo $price; ?></h2>
+												<h2><span>$</span><?php echo $price; ?></h2>
 												<p><?php echo $name; ?></p>
 												<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 											    <a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
@@ -113,7 +113,7 @@
 										<div class="single-products">
 											<div class="productinfo text-center">
 												<img src="admin/images/<?php echo $image; ?>" alt="" />
-												<h2><span>Rs.</span><?php echo $price; ?></h2>
+												<h2><span>$</span><?php echo $price; ?></h2>
 												<p><?php echo $name; ?></p>
 												<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 											    <a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
@@ -141,7 +141,7 @@
 										<div class="single-products">
 											<div class="productinfo text-center">
 												<img src="admin/images/<?php echo $image; ?>" alt="" />
-												<h2><span>Rs.</span><?php echo $price; ?></h2>
+												<h2><span>$</span><?php echo $price; ?></h2>
 												<p><?php echo $name; ?></p>
 												<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 											<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
@@ -169,7 +169,7 @@
 										<div class="single-products">
 											<div class="productinfo text-center">
 												<img src="admin/images/<?php echo $image; ?>" alt="" />
-												<h2><span>Rs.</span><?php echo $price; ?></h2>
+												<h2><span>$</span><?php echo $price; ?></h2>
 												<p><?php echo $name; ?></p>
 												<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 											<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
@@ -198,7 +198,7 @@
 										<div class="single-products">
 											<div class="productinfo text-center">
 												<img src="admin/images/<?php echo $image; ?>" alt="" />
-												<h2><span>Rs.</span><?php echo $price; ?></h2>
+												<h2><span>$</span><?php echo $price; ?></h2>
 												<p><?php echo $name; ?></p>
 												<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 											<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
@@ -234,7 +234,7 @@
 											<div class="single-products">
 												<div class="productinfo text-center">
 													<img src="admin/images/<?php echo $image; ?>" alt="" />
-													<h2><span>Rs.</span><?php echo $price; ?></h2>
+													<h2><span>$</span><?php echo $price; ?></h2>
 													<p><?php echo $name; ?></p>
 													<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 												<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
@@ -264,7 +264,7 @@
 											<div class="single-products">
 												<div class="productinfo text-center">
 													<img src="admin/images/<?php echo $image; ?>" alt="" />
-													<h2><span>Rs.</span><?php echo $price; ?></h2>
+													<h2><span>$</span><?php echo $price; ?></h2>
 													<p><?php echo $name; ?></p>
 													<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 												<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
@@ -296,7 +296,7 @@
 											<div class="single-products">
 												<div class="productinfo text-center">
 													<img src="admin/images/<?php echo $image; ?>" alt="" />
-													<h2><span>Rs.</span><?php echo $price; ?></h2>
+													<h2><span>$</span><?php echo $price; ?></h2>
 													<p><?php echo $name; ?></p>
 													<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 												<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
@@ -328,7 +328,7 @@
 											<div class="single-products">
 												<div class="productinfo text-center">
 													<img src="admin/images/<?php echo $image; ?>" alt="" />
-													<h2><span>Rs.</span><?php echo $price; ?></h2>
+													<h2><span>$</span><?php echo $price; ?></h2>
 													<p><?php echo $name; ?></p>
 													<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 												<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>

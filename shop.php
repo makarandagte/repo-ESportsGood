@@ -28,10 +28,9 @@
 								<div class='single-products'>
 									<div class='productinfo text-center'>
 										<img src='admin/images/$image' alt='' >
-										<h2><span>Rs.</span>$price</h2>
+										<h2><span>$</span>$price</h2>
 										<p>$name</p>
-										<a href='javascript:void(0)' class='btn btn-default add-to-cart' id='$id' onclick = 'cart($id)'><i class='fa fa-shopping-cart'></i>Add to cart</a>
-									    <a href='$add_wish' class='btn btn-default add-to-cart wish' data-user='$s_email' onclick='wish($id)'><i class='glyphicon glyphicon-heart'></i> Wishlist</a>
+										<a href='javascript:void(0)' class='btn btn-default add-to-cart' id='$id' onclick = 'cart($id)'><i class='fa fa-shopping-cart'></i>Add to cart</a>									    
 									</div>
 									
 								</div>
@@ -59,7 +58,6 @@
 		</div>
 	</section>
 	
-	<?php include("inc/footer.php"); ?>
 	
 	<script>
 $(document).ready(function(){
