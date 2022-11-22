@@ -199,7 +199,7 @@ color: white;
 <input type="number" name="num" id="num" placeholder="Enter Dummy Card Number">
 <input type="text" name="expiry date" id="expiry" name="expiry" placeholder="Expiry date">
 <input type="number" name="cvv" id="cvv" name="cvv" placeholder="Enter CVV">
-<input type="button" name="total" id="total" value="Total Payment Rs. <?php echo $total; ?>" style="background:#66B5F0;font-weight:bolder;">
+<input type="button" name="total" id="total" value="Total Payment $ <?php echo $total; ?>" style="background:#66B5F0;font-weight:bolder;">
 <a href="index.php"><input type="button" class="action-button" value="Cancel" style="background:red;"></a>
 <input type="button" name="next" id="pay" class="paynow action-button" value="Pay Now" disabled="disabled" style="background:#ddd;"/>
 </fieldset>

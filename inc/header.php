@@ -31,34 +31,7 @@
 
 <body>
 	<header id="header"><!--header-->
-		<div class="header_top"><!--header_top-->
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6">
-						<div class="contactinfo">
-							<ul class="nav nav-pills">
-								<li class="dummy"><a href="javascript:void(0)"><i class="fa fa-phone"></i> +91 98** 88 *21</a></li>
-								<li class="dummy"><a href="javascript:void(0)"><i class="fa fa-envelope"></i> info@flyingshopee.com</a></li>
-								
-							</ul>
-						</div>
-						
-					</div>
-					<div class="col-sm-6">
-						<div class="social-icons pull-right">
-							<ul class="nav navbar-nav">
-								<li class="dummy"><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-								<li class="dummy"><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-								<li class="dummy"><a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a></li>
-								<li class="dummy"><a href="javascript:void(0)"><i class="fa fa-dribbble"></i></a></li>
-								<li class="dummy"><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-		</div><!--/header_top-->
+		
 		<div class="row">
 		<div id="left-slide-menu" class=" col-xs-12 visible-xs">
 					   <div id="mySidenav" class="sidenav">
@@ -183,8 +156,7 @@
 					
 						<div class="shop-menu pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href="<?php echo $nav ?>.php"><i class="fa fa-user"></i> <?php echo $user; ?></a></li>
-								<li><a href="<?php echo $wish ?>"><i class="glyphicon glyphicon-heart"></i> Wishlist&nbsp;<span class="badge" id="wish_count">0</span></a></li>
+								<li><a href="<?php echo $nav ?>.php"><i class="fa fa-user"></i> <?php echo $user; ?></a></li>								
 								<!--<li><a href="checkout.php"><i class="fa fa-crosshairs"></i> Checkout</a></li>-->
 								<li><a href="cart.php"><i class="fa fa-shopping-cart"></i> Cart&nbsp;<span class="badge" id="count">0</span></a></li>
 								

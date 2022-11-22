@@ -174,19 +174,7 @@ if(isset($_POST['login'])){
 }
 }
 
-if(isset($_GET['wish'])){
-	echo "<script>
-		notif({
-				        msg:'Please Login to view/add to wishlist !!',
-						type:'info',
-						width:330,
-						height:40,
-						timeout:2000,
-						
-					})
-					</script>
-		";
-}
+
 
 if(isset($_GET['change'])){
 	echo "<script>
