@@ -309,7 +309,7 @@ $user_i = $user_data['c_image'];
 					 
 					 <div class='form-group'>
 					    <label for='user_pass'>Password : </label>
-					    <input type='text' class='form-control' value='$user_p' id='user_pass' name='user_pass'>
+					    <input type='password' class='form-control' value='$user_p' id='user_pass' name='user_pass'>
 					 </div>
 					 
 					 <div class='form-group'>
@@ -341,7 +341,7 @@ $user_i = $user_data['c_image'];
 if(isset($_POST['save'])){
 	$u_n = $_POST['user_name'];
 	$u_e = $_POST['user_email'];
-	$u_p = $_POST['user_pass'];
+	$u_p = password_hash($_POST['user_pass'],PASSWORD_DEFAULT);
 	$u_i = $_FILES['user_image']['name'];
 	$u_tmp = $_FILES['user_image']['tmp_name'];
 	

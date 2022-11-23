@@ -117,11 +117,11 @@ if(isset($_POST['register'])){
 						})
 	</script>";
 	}else{
-		
+		$final_pass = password_hash($pass,PASSWORD_DEFAULT);
 		$check = "select * from customer where c_email = '$email'";
 		$run_check = mysqli_query($con,$check);
 		if(mysqli_num_rows($run_check) < 1){
-		$insert_user = "insert into customer(c_session,c_name,c_email,c_pass,c_image) VALUES('$cookie_id','$uname','$email','$pass','default.png')";
+		$insert_user = "insert into customer(c_session,c_name,c_email,c_pass,c_image) VALUES('$cookie_id','$uname','$email','$final_pass','default.png')";
 		$run_insert = mysqli_query($con,$insert_user);
 		if($run_insert){
 			$_SESSION['email'] = $email;
@@ -146,17 +146,26 @@ if(isset($_POST['register'])){
 
 if(isset($_POST['login'])){
 	$useremail = $_POST['useremail'];
-	$password = $_POST['password'];
+	$password =  $_POST['password'];
 	
-	$check_user = "select * from customer where c_email ='$useremail' && c_pass='$password'";
-	$run_user = mysqli_query($con,$check_user);
+	
+	$check_user = "select c_pass from customer where c_email ='$useremail'";	
+	$run_user = mysqli_query($con,$check_user);	
 	if(mysqli_num_rows($run_user)==1){
+		$row = mysqli_fetch_row($run_user);
+		
+
+		if(password_verify($password,$row[0]))
+		{
 		$_SESSION['email'] = $useremail;
 		$update_session = "update customer set c_session='$cookie_id'";
 		$run_update = mysqli_query($con,$update_session);
 		
 	    echo "<script>window.open('index.php?login','_self')</script>";
-	}else{
+		
+		}
+		else
+		{
 		echo "<script>
 		notif({
 						msg:'Email or Password Incorrect !!!',
@@ -169,24 +178,13 @@ if(isset($_POST['login'])){
 		setTimeout(function() { header('location:login.php') }, 1000);
 	
 		</script>";
-						
+		}			
 	
-}
+	}
+
 }
 
-if(isset($_GET['wish'])){
-	echo "<script>
-		notif({
-				        msg:'Please Login to view/add to wishlist !!',
-						type:'info',
-						width:330,
-						height:40,
-						timeout:2000,
-						
-					})
-					</script>
-		";
-}
+
 
 if(isset($_GET['change'])){
 	echo "<script>

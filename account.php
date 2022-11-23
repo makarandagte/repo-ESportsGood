@@ -268,7 +268,7 @@ $("#edit").on("click",function(){
 
 });
 </script>
-<?php include "inc/footer.php"; ?>
+
 
 <?php
 if(isset($_GET["edit_yes"])){
