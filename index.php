@@ -40,7 +40,7 @@
 										<h2><span>$</span><?php echo $price; ?></h2>
 										<p><?php echo $name; ?></p>
 										<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
+										
 									</div>
 									
 									<img src="images/home/new.png" class="new" alt="" />
@@ -85,7 +85,7 @@
 												<h2><span>$</span><?php echo $price; ?></h2>
 												<p><?php echo $name; ?></p>
 												<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											    <a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
+											    
 											</div>
 											
 										</div>
@@ -116,7 +116,7 @@
 												<h2><span>$</span><?php echo $price; ?></h2>
 												<p><?php echo $name; ?></p>
 												<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											    <a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
+											    
 											</div>
 											
 										</div>
@@ -144,7 +144,7 @@
 												<h2><span>$</span><?php echo $price; ?></h2>
 												<p><?php echo $name; ?></p>
 												<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
+											
 											</div>
 											
 										</div>
@@ -172,7 +172,7 @@
 												<h2><span>$</span><?php echo $price; ?></h2>
 												<p><?php echo $name; ?></p>
 												<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
+											
 											</div>
 											
 										</div>
@@ -201,7 +201,7 @@
 												<h2><span>$</span><?php echo $price; ?></h2>
 												<p><?php echo $name; ?></p>
 												<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
+											
 											</div>
 											
 										</div>
@@ -237,7 +237,7 @@
 													<h2><span>$</span><?php echo $price; ?></h2>
 													<p><?php echo $name; ?></p>
 													<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
+												
 												</div>
 												
 											</div>
@@ -267,7 +267,7 @@
 													<h2><span>$</span><?php echo $price; ?></h2>
 													<p><?php echo $name; ?></p>
 													<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
+												
 												</div>
 												
 											</div>
@@ -299,7 +299,7 @@
 													<h2><span>$</span><?php echo $price; ?></h2>
 													<p><?php echo $name; ?></p>
 													<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
+												
 												</div>
 												
 											</div>
@@ -331,7 +331,7 @@
 													<h2><span>$</span><?php echo $price; ?></h2>
 													<p><?php echo $name; ?></p>
 													<a href="javascript:void(0)" class="btn btn-default add-to-cart" onclick="cart(<?php echo $id; ?>)"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												<a href="<?php echo $add_wish ?>" class="btn btn-default add-to-cart wish" data-user="<?php echo $s_email; ?>" onclick="wish(<?php echo $id; ?>)"><i class="glyphicon glyphicon-heart"></i> Wishlist</a>
+												
 												</div>
 												
 											</div>
@@ -393,40 +393,7 @@
 		
 	}
 	
-	function wish($p_id){
-		var w_id = $p_id;
-		var email = $(".wish").data("user");
-		
-		if(email != 0){
-		$.ajax({
-			url:"function.php",
-			method:"post",
-			data:{w_id:w_id,email:email},
-			success: function($wish){
-				    if($wish > 0){
-					notif({
-						msg:"Product Already Added to wishlist!!!",
-						type:"warning",
-						width:330,
-						height:40,
-						timeout:1000,
-						
-					})
-					
-				}else{
-					notif({
-						msg:"Added to wishlist",
-						type:"success",
-						width:330,
-						height:40,
-						timeout:1000,
-						
-					})
-				}
-			}
-		})
-		}
-	}
+	
 	
 
 	

@@ -23,13 +23,13 @@ if(isset($_POST['id'])){
 										<h2><span>$</span>$price</h2>
 										<p>$name</p>
 										<a href='javascript:void(0)' class='btn btn-default add-to-cart' onclick = 'cart($id)'><i class='fa fa-shopping-cart'></i>Add to cart</a>
-									   <a href='$add_wish' class='btn btn-default add-to-cart wish' data-user='$s_email' onclick='wish($id)'><i class='glyphicon glyphicon-heart'></i> Wishlist</a>
+									   
 									</div>
 									
 								</div>
 								<div class='choose'>
 									<ul class='nav nav-pills nav-justified'>
-										<li><a href=''><i class='fa fa-plus-square'></i>Add to wishlist</a></li>
+										
 										<li><a href=''><i class='fa fa-plus-square'></i>Add to compare</a></li>
 									</ul>
 								</div>

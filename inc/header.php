@@ -156,8 +156,12 @@
 					
 						<div class="shop-menu pull-right">
 							<ul class="nav navbar-nav">
+<<<<<<< HEAD
+								<li><a href="<?php echo $nav ?>.php"><i class="fa fa-user"></i> <?php echo $user; ?></a></li>								
+=======
 								<li><a href="<?php echo $nav ?>.php"><i class="fa fa-user"></i> <?php echo $user; ?></a></li>
 								
+>>>>>>> f59d409d3f104e759c2ca6d6ce0a17d121d694c2
 								<!--<li><a href="checkout.php"><i class="fa fa-crosshairs"></i> Checkout</a></li>-->
 								<li><a href="cart.php"><i class="fa fa-shopping-cart"></i> Cart&nbsp;<span class="badge" id="count">0</span></a></li>
 								
