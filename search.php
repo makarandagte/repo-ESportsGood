@@ -29,7 +29,7 @@
 										<h2><span>$</span>$price</h2>
 										<p>$name</p>
 										<a href='javascript:void(0)' class='btn btn-default add-to-cart' id='$id' onclick = 'cart($id)'><i class='fa fa-shopping-cart'></i>Add to cart</a>
-									    <a href='$add_wish' class='btn btn-default add-to-cart wish' data-user='$s_email' onclick='wish($id)'><i class='glyphicon glyphicon-heart'></i> Wishlist</a>
+									    
 									</div>
 									
 								</div>
@@ -117,40 +117,7 @@ $(window).scroll(function(){
 		
 	}
 	
-	function wish($p_id){
-		var w_id = $p_id;
-		var email = $(".wish").data("user");
-		
-		if(email != 0){
-		$.ajax({
-			url:"function.php",
-			method:"post",
-			data:{w_id:w_id,email:email},
-			success: function($wish){
-				    if($wish > 0){
-					notif({
-						msg:"Product Already Added to wishlist!!!",
-						type:"warning",
-						width:330,
-						height:40,
-						timeout:1000,
-						
-					})
-					
-				}else{
-					notif({
-						msg:"Added to wishlist",
-						type:"success",
-						width:330,
-						height:40,
-						timeout:1000,
-						
-					})
-				}
-			}
-		})
-		}
-	}
+	
 
 
 
